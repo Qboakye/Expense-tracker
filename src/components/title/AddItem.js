@@ -83,7 +83,7 @@ function AddItem({
         </button>
         <div className="img-box"></div>
         <form onSubmit={handleSubmit}>
-          <p style={{ textAlign: "center" }}>{error}</p>
+          <p className="error-box">{error}</p>
           <div className="filter-category-container">
             <div>
               <label htmlFor="filter">Type</label>

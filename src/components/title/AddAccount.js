@@ -46,7 +46,7 @@ function AddAccount({ setIsOpened, addWallet }) {
         </button>
         <div className="img-box"></div>
         <form onSubmit={handleSubmit}>
-          <p style={{ textAlign: "center" }}>{error}</p>
+          <p className="error-box">{error}</p>
           <div className="account-name">
             <label htmlFor="account">Account Name</label>
             <input

@@ -29,8 +29,8 @@ function Login({ login, connectErr }) {
     <main className="home-page">
       <form className="login-form" onSubmit={handleSubmit}>
         <h2>Log In</h2>
-        <p style={{ textAlign: "center" }}>{error}</p>
-        <p style={{ textAlign: "center" }}>{connectErr}</p>
+        <p className="error-box">{error}</p>
+        <p className="error-box">{connectErr}</p>
         <div className="email">
           <label htmlFor="email">Email</label>
           <input type="email" name="email" id="email" onChange={handleChange} />
