@@ -1,0 +1,64 @@
+.overlay-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-container > .add-account-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  border: 1px solid black;
+  width: 60%;
+  height: 60%;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: rgb(237, 242, 243);
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 2%;
+  right: 1%;
+  background-color: transparent;
+  border: 0;
+}
+
+.close-btn {
+  width: 20px;
+  height: 20px;
+}
+
+.add-account-container > .img-box {
+  max-width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../assets/background-img/wallet.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.add-account-container > form {
+  padding: 20px 20px;
+  background-color: rgb(237, 242, 243);
+}
+
+.add-account-container > form div {
+  margin-bottom: 20px;
+}
+
+.add-account-container > form label {
+  display: block;
+}
+
+#default {
+  margin-right: 10px;
+}

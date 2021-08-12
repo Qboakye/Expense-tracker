@@ -1,0 +1,63 @@
+.settings-page button {
+  margin-right: 10px;
+}
+
+.settings-page input[type="text"] {
+  padding: 5px;
+}
+
+.settings-page label {
+  display: block;
+}
+
+.settings-page .section-1 {
+  margin-bottom: 15px;
+}
+.settings-page .section-2 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.settings-page .username {
+  margin-bottom: 10px;
+}
+
+.settings-page .file {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.settings-page .logo {
+  display: inline-block;
+  width: 40px;
+  margin-right: 10px;
+  margin-left: 0px;
+}
+.settings-page .logo .logo-profile {
+  fill: rgb(95, 78, 78);
+}
+
+.settings-page textarea {
+  padding: 5px;
+  resize: none;
+}
+
+.settings-page .email {
+  margin-bottom: 10px;
+}
+
+.settings-page .end-btns {
+  text-align: right;
+}
+.settings-page .secondary {
+  border: none;
+  background-color: transparent;
+}
+.settings-page .primary {
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: aliceblue;
+  background-color: gray;
+}

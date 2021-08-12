@@ -1,0 +1,75 @@
+.home-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-image: url("../assets/background-img/notepad.jpg"),
+    url("../assets/background-img/black.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  border: none;
+}
+
+.login-form,
+.signup-form {
+  border: 1px solid goldenrod;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px black;
+  background-color: whitesmoke;
+  padding: 2rem;
+  max-width: 380px;
+}
+
+.login-form h2,
+.signup-form h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.login-form input,
+.signup-form input {
+  border: 1px solid sienna;
+  width: 100%;
+}
+
+.login-form div,
+.signup-form div {
+  margin-bottom: 0.875rem;
+}
+
+.login-btn,
+.signup-btn {
+  text-align: center;
+  width: 100%;
+}
+
+.login-btn > button,
+.signup-btn > button {
+  width: 100%;
+  border: none;
+  background-color: chocolate;
+  color: aliceblue;
+  padding: 0.55rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+.login-btn > button:hover,
+.signup-btn > button:hover {
+  background-color: rgb(136, 84, 47);
+}
+
+.login-form small,
+.signup-form small {
+  margin-top: 1rem;
+}
+
+.login-form a,
+.signup-form a {
+  text-decoration: underline;
+  color: initial;
+}

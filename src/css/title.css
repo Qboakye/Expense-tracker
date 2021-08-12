@@ -1,0 +1,24 @@
+.header-container {
+  margin-bottom: 0.5rem;
+  height: 20%;
+}
+
+.header-container > article {
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 2.5rem;
+}
+
+.header-icons {
+  width: 30px;
+}
+
+.wallet {
+  margin-right: 15px;
+}
+
+.wallet-name {
+  text-transform: capitalize;
+}
