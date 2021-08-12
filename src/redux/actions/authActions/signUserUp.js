@@ -15,7 +15,7 @@ export const signUserUp = (details) => {
           .doc(details.account)
           .set({
             id: uuidv4(),
-            active: true,
+            active: false,
             bankName: details.account,
             bankStatements: {
               income: [],
